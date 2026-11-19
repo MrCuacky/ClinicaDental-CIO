@@ -1,4 +1,4 @@
-# CIO Clínica Dental
+# CIO Clínica Dental :tooth:
 
 Landing page para CIO Clínica Dental (Centro Integral Odontológico), una clínica dental ubicada en Durango, México. El sitio presenta la clínica y sus servicios para que pacientes potenciales puedan conocer sus especialidades, al equipo y la ubicación, y ponerse en contacto para agendar una cita.
 
