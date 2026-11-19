@@ -6,7 +6,7 @@ Landing page para CIO Clínica Dental (Centro Integral Odontológico), una clín
 
 Visita la landing page desplegada en Vercel:
 
-[clinica-dental-cio.vercel.app](https://clinica-dental-cio.vercel.app/)
+:link: [clinica-dental-cio.vercel.app](https://clinica-dental-cio.vercel.app/)
 
 ## Contenido
 
