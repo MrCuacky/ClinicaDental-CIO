@@ -4,7 +4,7 @@ import { Menu, X, MapPin, Phone, Mail,
     Users, MapPinned, SmilePlus } from 'lucide-react';
 import { motion } from 'framer-motion';
 import Logo from './assets/logo_landing.svg'
-import LogoWthBg from './assets/LogoWthBG.svg'
+import LogoWthBg from './assets/LogoWthBg.svg'
 import DoctorImage from './assets/doctor_landing.png'
 
 // Imágenes de reemplazo (Unsplash) para que funcione en el Canvas
