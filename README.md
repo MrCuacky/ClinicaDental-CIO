@@ -1,73 +1,41 @@
-# React + TypeScript + Vite
+# CIO Clínica Dental
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page para CIO Clínica Dental (Centro Integral Odontológico), una clínica dental ubicada en Durango, México. El sitio presenta la clínica y sus servicios para que pacientes potenciales puedan conocer sus especialidades, al equipo y la ubicación, y ponerse en contacto para agendar una cita.
 
-Currently, two official plugins are available:
+## Sitio publicado
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Visita la landing page desplegada en Vercel:
 
-## React Compiler
+[clinica-dental-cio.vercel.app](https://clinica-dental-cio.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Contenido
 
-## Expanding the ESLint configuration
+- Presentación de la clínica y acceso rápido para agendar por WhatsApp.
+- Especialidades: ortodoncia, odontopediatría, cirugía maxilofacial, periodoncia y prótesis dental.
+- Información del equipo, misión y visión.
+- Ubicación y datos de contacto.
+- Diseño adaptable a dispositivos móviles.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tecnologías
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- React y TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Lucide React
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Desarrollo local
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Necesitas Node.js y npm instalados.
+
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Vite mostrará en la terminal la dirección local para abrir el sitio. Para generar y previsualizar una compilación de producción:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run build
+npm run preview
 ```
